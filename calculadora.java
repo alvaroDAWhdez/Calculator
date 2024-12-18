@@ -14,7 +14,10 @@ public class calculadora {
             break;
         case '*':
             resultado = num1 * num2;
-            break;    
+            break;
+        case '/':
+            resultado = num1 / num2;
+            break;        
         default:
             System.out.println("Operador inválido");
         return;
